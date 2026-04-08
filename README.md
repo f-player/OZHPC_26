@@ -83,32 +83,32 @@ Ini{{"I::"}} -.-> p_h1
 HTf{{"I::Tслом=100"}} -.-> p_h1
 
 %% ========== СТИЛИ ==========
-classDef cond fill:#bee,stroke:#aaa,stroke-width:1px;
-classDef state fill:#9e8,stroke:#333,stroke-width:1px;
-classDef navig fill:#eda,stroke:#333,stroke-width:1px;
-classDef inputPurple fill:#e6e6fa,stroke:#800080,stroke-width:1px;
-classDef paramRejim fill:#ffc0cb,stroke:#333,stroke-width:2px;
-classDef paramMaster fill:#e30b5d,stroke:#333,stroke-width:2px;
-classDef paramSost fill:#aee,stroke:#333,stroke-width:2px;
-classDef paramTrem fill:#cccccc,stroke:#555,stroke-width:2px;
+%%classDef cond fill:#bee,stroke:#aaa,stroke-width:1px;
+%%classDef state fill:#9e8,stroke:#333,stroke-width:1px;
+%%classDef navig fill:#eda,stroke:#333,stroke-width:1px;
+%%classDef inputPurple fill:#e6e6fa,stroke:#800080,stroke-width:1px;
+%%classDef paramRejim fill:#ffc0cb,stroke:#333,stroke-width:2px;
+%%classDef paramMaster fill:#e30b5d,stroke:#333,stroke-width:2px;
+%%classDef paramSost fill:#aee,stroke:#333,stroke-width:2px;
+%%classDef paramTrem fill:#cccccc,stroke:#555,stroke-width:2px;
 
 %% Применение стилей к узлам Прибора
-class p_h5,p_h2,p_h7 state;
-class p_h1,p_h3,p_h4,p_h6 cond;
-style p_title fill:yellow,stroke:red;
+%%class p_h5,p_h2,p_h7 state;
+%%class p_h1,p_h3,p_h4,p_h6 cond;
+%%style p_title fill:yellow,stroke:red;
 
 %% Применение стилей к узлам Мастера
-class m_h1,m_h3,m_h5,m_h16 state;
-class m_h2,m_h4 cond;
-class m_h15 navig;
-class m_in1,m_in2 inputPurple;
-style m_title fill:yellow,stroke:red;
+%%class m_h1,m_h3,m_h5,m_h16 state;
+%%class m_h2,m_h4 cond;
+%%class m_h15 navig;
+%%class m_in1,m_in2 inputPurple;
+%%style m_title fill:yellow,stroke:red;
 
 %% Применение стилей к параметрам
-class par1 paramRejim;
-class par2 paramMaster;
-class par3 paramSost;
-class par4 paramTrem;
+%%class par1 paramRejim;
+%%class par2 paramMaster;
+%%class par3 paramSost;
+%%class par4 paramTrem;
 
 %% ========== ГИПЕРССЫЛКИ ==========
 click par2 href "https://iu5.bmstu.ru" "переход для Мастера" _blank
