@@ -2,7 +2,7 @@
 Малышева ЕО ИУ5-63б
 
 Markdown с Mermaid
-%%{init: {'theme': 'default'}}%%
+```mermaid
 flowchart TD
 
 %% ========== ПОДГРАФ: ПРИБОР ==========
